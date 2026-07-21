@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "tolmac"
+version = "0.0.1"
+description = "Forensic encoding decoder and verifier. Auto-detects UTF-8, UTF-16, UTF-32, ASCII, BCD, Base64 and produces court-defensible step-by-step decode logs. Part of the Strategos Suite by ShadowStrike."
+readme = "README.md"
+license = {text = "Proprietary"}
+authors = [{name = "ShadowStrike", email = "r@strategos.au"}]
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Intended Audience :: Other Audience",
+    "Topic :: Security",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+]
+requires-python = ">=3.11"
